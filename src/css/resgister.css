@@ -1,0 +1,60 @@
+.register-box {
+  display: none;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 600px;
+  height: 350px;
+  font-size: 14px;
+  padding: 10px;
+  position: absolute;
+  background: #fff;
+}
+.register-box .register-close {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.register-box .box {
+  border: 1px solid red;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.register-box .box .fwidth {
+  display: inline-block;
+  width: 70px;
+}
+.register-box .box input {
+  padding-left: 15px;
+  border: 0;
+  outline: 0;
+  width: 230px;
+  height: 30px;
+  background: #fff;
+}
+.register-box .error {
+  display: block;
+  line-height: 23px;
+  font-weight: 700;
+  height: 23px;
+  margin-bottom: 5px;
+}
+.register-box .registor-sub {
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  color: #fff;
+  background: #e2231a;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=resgister.css.map */
